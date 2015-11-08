@@ -1,6 +1,6 @@
 // Problem Link: https://www.acmicpc.net/problem/7453
 // Cannot use O(n^4) brute force. Divide the list into A,B,C and D and use binary search 
-// that runs in time complexity O(nlgn)
+// that runs in time complexity O(n^2lgn)
 // blog post: http://blog.naver.com/programmer18/220492954864
 #include <iostream>
 #include <cstdio>
