@@ -2,7 +2,7 @@
 Note: this solution receives memory limit exceed in the online judge. 
 Refer to boj2293-2.cpp that I will upload later for an accepted solution. 
 Problem Link: https://www.acmicpc.net/problem/2293#
-동전이 주어지고 어떠한 수 k가 주어졌을때 이 동전들로 k를 만들 수 있는 경우의 수를 
+동전들이 주어지고 어떠한 수 k가 주어졌을때 이 동전들로 k를 만들 수 있는 경우의 수를 
 모두 구하는 프로그램을 작성해야한다. 일단 한 동전을 고르거나 고르지 않거나 두 경우중 
 하나이므로 점화식은 num = count(n-1,sum)+count(n-1,sum-a[n-1])일 것이다.  
 이 함수는 참조적 투명함수이고 (referentially transparent) 따라서 메모이제이션을 적용할 수 있다. 
