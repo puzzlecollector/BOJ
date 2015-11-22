@@ -1,6 +1,6 @@
 /*
 Problem Link: https://www.acmicpc.net/problem/10881
-제 블로그에다가 문제해설을 포스트해놨어요!: http://blog.naver.com/programmer18/220467836992
+제 블로그에다가 문제 해설을 포스트 해놨어요!: http://blog.naver.com/programmer18/220467836992
 */
 
 #include <iostream> 
