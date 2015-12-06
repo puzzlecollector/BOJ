@@ -37,4 +37,3 @@ int main()
     cout << t << endl;
     return 0; 
 }
-[출처] 4와 7|작성자 Stardust
