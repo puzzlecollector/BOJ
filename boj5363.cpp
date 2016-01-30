@@ -1,5 +1,5 @@
 // Problem Link: https://www.acmicpc.net/problem/5363 
-// using istringstream 
+// Using istringstream 
 #include <iostream> 
 #include <string> 
 #include <cstdio> 
