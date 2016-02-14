@@ -20,4 +20,4 @@ int main(){
 	}
 	cout << (TravelValue == 5000 ? -1:TravelValue) << endl; 
 	return 0; 
-}
+} 
