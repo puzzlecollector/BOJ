@@ -19,7 +19,7 @@ int main(){
 		if (l >= k) break; 
 	}
 	while (l > k){
-		l /= 10; 
+		i /= 10; 
 		l--; 
 	}
 	if (l == k) cout << i%10 << endl; 
