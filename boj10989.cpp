@@ -1,22 +1,21 @@
 #include <iostream>
-#include <cstdlib>
-#include <cstdio> 
-#include <algorithm> 
-#include <map> 
-using namespace std; 
-
+#include <cstdio>
+#include <algorithm>
+using namespace std;
+int cnt[10001];
 int main(){
-	map<int,int> mp; 
-	int n,num; 
-	scanf("%d",&n); 
-	for (int i = 0; i < n; i++){
-		scanf("%d",&num); 
-		mp[num]++;  
-	}
-	for (map<int,int>::iterator it = mp.begin(); it != mp.end(); it++){
-		for (int i = 0; i < it->second; i++){
-			printf("%d\n",it->first);  
-		}
-	}
-	return 0; 
+  int N, maxn = -1;
+  scanf("%d",&N);
+  for (int i = 0; i < N; i++){
+    int x;
+    scanf("%d",&x);
+    cnt[x]++;
+    maxn = max(maxn, x);
+  }
+  for (int i = 1; i <= maxn; i++){
+    for (int j = 0; j < cnt[i]; j++){
+      printf("%d\n",i);
+    }
+  }
+  return 0;
 }
